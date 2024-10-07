@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ajuste para ocupar el tamaño completo del viewport */
+    margin: 0; /* Eliminar margen predeterminado del body */
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h2 {
+    font-weight:700;
+    line-height: 1.6;
+    
+}
+
+/* Ajustes para los botones */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.hidden {
+    display: none;
+}
+/* Estilo para el párrafo inicial */
+#paragraphInit {
+    margin-bottom: 20px; /* Añadir margen inferior para separar del botón */
+    text-align:justify; /* Justificar el texto */
+    line-height: 1.6; /* Ajustar el espaciado entre líneas */
+}
+#textToRead {
+    overflow-y: auto;
+    max-height: 400px; /* Puedes ajustar la altura máxima según tus necesidades */
+}
+
+/* Estilo para el contenedor de preguntas */
+#questionnaire {
+    margin-top: 20px;
+}
+
+/* Estilo para la lista de preguntas */
+#questionList {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilo para las opciones de pregunta */
+.question-options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los resultados */
+#results {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#results div {
+    margin-bottom: 5px;
+}
+/* Estilo para el texto de la historia */
+#textToRead {
+    text-align: justify; /* Justificar el texto */
+    line-height: 1.6; /* Ajustar el espaciado entre líneas */
+    margin-top: 20px; /* Añadir margen superior para separar del botón */
+    padding: 20px; /* Añadir relleno para separar del borde */
+    background-color: #f9f9f9; /* Añadir fondo para mejorar la legibilidad */
+    border-radius: 10px; /* Añadir bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadir sombra para resaltar */
+}
+
+.lastParagrah {
+    color: firebrick;
+}
+
+.finalMessage{
+    color: green;
+}

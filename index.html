@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Comprensión Lectora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="titleInit">Test Número 2</Nav></h2>
+        <p id="paragraphInit">
+            Este test busca medir tu velocidad y comprensión
+            lectora.<br>
+            Te recomendamos que lo hagas en un ambiente
+            calmado, sin distracciones y con buena iluminación.<br>
+            Esta lectura la debes hacer basado en las técnicas
+            que ya hayas empezado a usar. En las primeras
+            semanas, no debes preocuparte mucho por la
+            comprensión lectora, ya que ese es un proceso que se
+            va a ir dando paulatinamente.<br>
+            Cuando des clic en INICIAR se te presentará la lectura
+            y el sistema llevará un cronómetro que medirá tu
+            velocidad. Al finalzar de leer todo el texto debes dar
+            clic en el botón TERMINAR.<br>
+        </p>
+        <button id="startButton">Iniciar</button>
+        <div id="textContainer" class="hidden">
+            <p id="textToRead">
+                Hace un infinito de tiempo, la Luna, vagaba sola por el espacio y nadie le hacía compañía.
+                <br><br>
+                Las estrellas que tenía a su alrededor solo la acompañaban un cierto tiempo hasta que éstas dejaban de brillar. Sus parientes y mejores amigos se encontraban a años luz, ella se sentía abandonada.
+                <br><br>
+                Su amigo más cercano era el Sol, este, cada vez que podía, encarnaba una plática con ella que a lo mucho duraba unos cientos de años, pero no era suficiente para hacer sentir a la Luna feliz, pues a veces la soledad suele ser eterna.
+                <br><br>
+                Divagando en el espacio, la Luna encontró un planeta diferente a los demás, era extraño y especial, conocido como ‘‘Tierra’’.
+                <br><br>
+                La Tierra se encontraba sola, no tenía a nadie al igual que la luna; esto lo podría aprovechar, así ambos podrían ser amigos. Solo esperaba que la Tierra no fuera como el mujeriego de Saturno, que tenía muchas lunas a su alrededor y entre todas le dieron anillos para hacerlo lucir mejor.
+                <br><br>
+                Observando a su alrededor miró a sus vecinos, uno era Marte, un planeta muy malo que siempre se encontraba rojo de ira sin motivo alguno. Y al otro lado estaba Venus y Mercurio, dos planetas muy chismosos, siempre pegados al Sol.
+                <br><br>
+                La luna se acercó lo más que pudo a la Tierra para observar mejor su apariencia, a simple vista era sencillamente hermosa, algo que jamás había visto desde que miró como un gigante rojo se convirtió en un evento único que llamó ‘‘supernova’’.
+                <br><br>
+                Mientras la Luna más miraba a la Tierra más quedaba hipnotizada con su apariencia.
+                <br><br>
+                Cuando por fin tomó el valor de hablarle se dio cuenta que la Tierra era bipolar, no por tener dos polos opuestos, sino porque a veces era cálida, a veces era fría. Se comportaba amable, aunque en ciertas ocasiones tenía un humor de mil huracanes.
+                <br><br>
+                Mientras la Luna y la Tierra hablaban, el tiempo pasaba como si nada. La Luna le tomó mucho aprecio a la Tierra y acabó sintiéndose atraída por ella, amándola, en secreto.
+                <br><br>
+                La Tierra parecía estar loca, nunca paraba de dar vueltas, esto la hacía feliz; la Luna cegada por su amor comenzó a seguirla. Ambos hablaban demasiado, incluso la Tierra le habló a Luna de algo dentro de ella llamado agua, era extraño pero asombroso, pero no podía dárselo tan fácil, la Luna dijo que quizás podía tomarlo, entonces con su fuerza comenzó poco a poco a atraer el agua, pero era inútil, aun así, jamás dejó de intentar.
+                <br><br>
+                Bajo intriga, el planeta Tierra comenzó a hacer preguntas al azar a la Luna, ésta le contó que tenía un lado oscuro el cual detestaba pues era frío y lleno de dolor, pero claro, su amigo el Sol siempre estaba ahí para sacar el mejor brillo de ella. A la Tierra se le hacía tan bello el brillo de Luna pero simplemente no sentía lo mismo que la Luna sentía por ella.
+                <br><br>
+                Cuando la Luna confesó su amor, la Tierra se sobresaltó, en su interior sentía escalofríos e incluso se calentó de más. Al no querer herir a la Luna, la Tierra le contó la verdad de su forma de ser. Hace mucho tiempo la Tierra tenía un gran corazón para todos y acabó enamorándose de alguien, pero era un amor no correspondido que terminó destrozando su corazón y partiéndolo en seis pedazos diferentes, ella no quería volver a amar por miedo a sufrir otra vez.
+                <br><br>
+                La Luna se terminó dando cuenta de que quien realmente necesitaba un amigo era la Tierra y llegó para ayudarla, el tiempo jamás volvió a ser largo; eran felices, la Luna le hizo una promesa a la Tierra, le dijo que jamás la abandonaría y se quedaría con ella eternamente, más allá de la oscuridad, más allá de la eternidad.
+            </p>            
+            <div id="timer">Tiempo transcurrido: <span id="timerValue">0</span> segundos</div>
+            <button id="finishButton">Terminar</button>
+        </div>
+        <div id="questionnaire" class="hidden">
+            <h2>Test de Comprensión Lectora</h2>
+            <form id="quizForm">
+                <ol id="questionList">
+                    <!-- Las preguntas se añadirán aquí dinámicamente con JavaScript -->
+                </ol>
+                <button type="submit">Terminar</button>
+            </form>
+        </div>
+        <div id="results" class="hidden">
+            <h2>Resultados</h2>
+            <div id="wordCount">Palabras leídas: <span id="wordCountValue"></span></div>
+            <div id="readingSpeed">Velocidad de lectura: <span id="readingSpeedValue"></span> palabras por minuto</div>
+            <div id="comprehension">Comprensión lectora: <span id="comprehensionValue"></span>%</div>
+            <div id="timeResult">Tiempo transcurrido: <span id="timeResultValue"></span> segundos</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
