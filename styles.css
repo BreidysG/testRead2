@@ -6,7 +6,7 @@ body {
     align-items: center;
     min-height: 100vh; /* Ajuste para ocupar el tamaño completo del viewport */
     margin: 0; /* Eliminar margen predeterminado del body */
-    background-image: url(/2.png);
+    background-image: url(2.png);
     background-size:cover;
 }
 
