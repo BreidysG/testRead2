@@ -105,3 +105,29 @@ button:hover {
 .finalMessage{
     color: green;
 }
+/* Ajustes para pantallas móviles */
+@media (max-width: 600px) {
+    .container {
+        width: 90%; /* Aumentar el ancho para aprovechar mejor el espacio */
+        padding: 15px; /* Reducir padding para evitar que el contenido se vea comprimido */
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px; /* Reducir tamaño de fuente en botones */
+    }
+    
+    #textToRead {
+        max-height: 250px; /* Ajustar la altura máxima para una mejor visualización en móvil */
+        padding: 15px; /* Reducir padding en texto */
+        font-size: 14px; /* Ajustar el tamaño de fuente para que sea más legible en móvil */
+    }
+    
+    h2 {
+        font-size: 18px; /* Ajustar el tamaño de los títulos */
+    }
+    
+    #paragraphInit, #questionList, #results {
+        font-size: 14px; /* Ajuste de tamaño de fuente en secciones de texto */
+    }
+}
