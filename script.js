@@ -131,9 +131,9 @@ quizForm.addEventListener('submit', function(event) {
         results.classList.remove('hidden');
         questionnaire.classList.add('hidden');
         document.getElementById('wordCountValue').textContent = wordCount;
-        document.getElementById('readingSpeedValue').textContent = `${readingSpeed} palabras por minuto`;
+        document.getElementById('readingSpeedValue').textContent = `${readingSpeed}`;
         document.getElementById('comprehensionValue').textContent = `${comprehensionPercentage}`;
-        document.getElementById('timeResultValue').textContent = `${timeResult} segundos`;
+        document.getElementById('timeResultValue').textContent = `${timeResult}`;
 
         // Mostrar tiempo por palabra ajustado
         document.getElementById('results').innerHTML += `
